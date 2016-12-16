@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Guesv</id>
+    <version>$version$</version>
+    <title>Guesv</title>
+    <authors>Jan Hudecek</authors>
+    <owners>Jan Hudecek</owners>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.en.html</licenseUrl>
+    <projectUrl>https://github.com/j-hudecek/Guesv</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>First version</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Csv Tsv tab comma separated values delimited </tags>
+  </metadata>
+</package>
