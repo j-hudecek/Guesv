@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Guesv
 {
@@ -27,6 +25,7 @@ namespace Guesv
 
         public Guesv(string filename)
         {
+            this.filename = filename;
             LoadFile(filename, true);
 
             foreach (var kv in header2i)
@@ -50,7 +49,6 @@ namespace Guesv
         private int RowCount;
 
         private string filename;
-        private string originalfilename;
 
         private const int SAMPLE_LINES = 5;
         private const int BULK_INSERT_ROWS = 10000;
